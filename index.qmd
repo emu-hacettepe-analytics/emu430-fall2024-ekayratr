@@ -1,12 +1,18 @@
 ---
-title: "Welcome to My Analytics Lab"
+title: "Efe Kayra Torun"
 sidebar: false 
 ---
 
-Hello! My name is Efe Kayra Torun.
-
-This is my personal webpage.
-
-Please stay tuned to follow my works on industrial engineering, data analytics, blog posts, and more.
-
-Have a good time!
+---
+<div style="position: relative; text-align: center; color: white;">
+  <video autoplay muted loop style="width:100%; height:auto;">
+    <source src="231177" type="video/mp4">
+    Tarayıcınız video etiketini desteklemiyor.
+  </video>
+  
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+    <h1 style="font-size: 50px; font-weight: bold;">Hello,This is My Personal Webpage </h1>
+    <p style="font-size: 20px;">Follow My Works on Industrial Engineering, Data Analytics, Blog Posts, and More.</p>
+  </div>
+</div>
+---
