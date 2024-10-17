@@ -4,12 +4,69 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
 ## (a)
 
+**Baykal Hafızoğlu and Data Science**
+
+When preparing a model, we have four critical stages. First, we perform descriptive analytics. In the descriptive phase, we define the problem. All projects must begin with a clear definition. At this stage, we need to define measurable KPIs and success criteria. We can use methods such as data mining, time series analysis, and data visualization. The next step is to move on to diagnostic analytics. The diagnostic phase explains why the problem occurred. These are studies aimed at revealing the "why" of something in light of the data. We can use methods like hypothesis testing, clustering, and regression. In the predictive analytics phase, we focus on what will happen in the future. Predictive analytics is a form of business analytics that builds a predictive model for specific business applications. We can work with methods such as machine learning, regression, clustering, and simulation. Finally, we move on to the prescriptive analytics phase. As the name suggests, the prescriptive phase can be likened to the prescriptions written by doctors. It is the part where we determine what we should do. It is a form of business analytics that suggests decision options regarding how to seize a future opportunity or mitigate a future risk, showing the implications of each decision option. In this phase, we can work with methods such as metaheuristics, decision rules, heuristics, mathematical modeling, and optimization.
+
+These four stages follow a path where the value and complexity increase as we progress.
+
+Distributing the models we prepare is a crucial point. The models shouldn't just remain stuck on our laptops. Your model might be perfect, but if it doesn’t solve the problem for the stakeholder, it's a useless model. When deploying our models, we need to be careful and make the right deployment platform choice. Early prototypes we prepare are critical. Prototypes will allow us to get useful and important feedback. The user interface is super critical when presenting the model to users. Users want to reach the result in the model in the shortest and clearest way possible. Therefore, it is vital to produce a clean and clear design in UI design.
+
+End users are always right. When communicating with end users, they can provide us with a lot of information. To avoid getting lost in this information, communicating through numerical KPIs will make our business process easier. Being a careful listener and getting early feedback will be very helpful. We can progress in the process by getting feedback after every solution. We should allow end users to use and adopt the model. We need to develop the UI fully and deliver it in its best state (clean and usable). Creating debugging elements will benefit the model.
+
+The complex analysis covers roughly 1% of our model. To give a real-life example, in a 50,000-line code, only 100 lines may constitute the complex part. We have to take this part seriously because it is the only part where we optimize the problem and get the actual answer in the model.
+
+Explainability is a very important point for us. Surprisingly enough, to explain this further, a simple and less efficient solution is much better than a complex and more efficient one. We can make a similar comparison by saying that solvable MIPs and LPs are better than complex heuristics.
+
+When finishing our model, we should refer back to the problem definition. We should indicate how many units we improved in the numerical KPIs. We add how much progress we made in each KPI. While fixing some things, we will observe that some things may worsen, and we should also clearly state this. We shouldn’t have to explain the UI. Users should be able to use the UI without consulting us too much. We should present the improvements we’ve made in our model graphically. We can compare and present different scenarios. Lastly, creating mind maps to connect the pieces of the model will also be very useful.
+
+Explain the four critical stages of preparing a data science model as described by Baykal Hafızoğlu. Include the main purpose and key methods used in each stage.
+
+-   Descriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics
+
+Which of the following is **NOT** mentioned as a method used during the **prescriptive analytics** phase in Baykal Hafızoğlu’s data science process?
+
+a\) Metaheuristics\
+b) Mathematical modeling\
+c) Data visualization\
+d) Optimization
+
+**Answer**: c) Data visualization
+
 ## (b)
+
+```{r}
+
+library(dslabs)
+data("polls_us_election_2016")
+#I wanted to use two different methods while working.
+head(polls_us_election_2016, 10)
+polls_us_election_2016[1:10, ]
+
+total_NA <- sum(is.na(polls_us_election_2016))
+total_NA
+
+new_data <- polls_us_election_2016
+
+birth_year <- 2001
+first_name <- "Efe"  
+
+for (col in colnames(new_data)) {
+  if (is.numeric(new_data[[col]])) {
+    new_data[[col]] <- ifelse(is.na(new_data[[col]]), birth_year, new_data[[col]])
+  } else if (is.character(new_data[[col]]) || is.factor(new_data[[col]])) {
+    new_data[[col]] <- ifelse(is.na(new_data[[col]]), first_name, as.character(new_data[[col]]))
+  }
+}
+
+head(new_data, 10)
+
+total_NA_of_new_data <- sum(is.na(new_data))
+total_NA_of_new_data
+
+
+```

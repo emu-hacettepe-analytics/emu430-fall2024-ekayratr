@@ -3,9 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-# About Me
-
--   I am a senior Industrial Engineering student. I have successfully completed my internships and delivered individual work aimed at improving company efficiency. To be versatile, I had the opportunity to observe and work with various departments and teams within companies. I am known for my skills in project management, budget analysis, supply chain management, inventory management, and data analytics.
+*I am a senior Industrial Engineering student. I have successfully completed my internships and delivered individual work aimed at improving company efficiency. To be versatile, I had the opportunity to observe and work with various departments and teams within companies. I am known for my skills in project management, budget analysis, supply chain management, inventory management, and data analytics.*
 
 # Education
 
@@ -24,6 +22,10 @@ sidebar: false
 ## ‣ Aselsannet \| Production Planning Intern \| Ankara, Turkey \| 08.2024 – 09.2024
 
 -   I identified bottlenecks in the production process. I participated in material requirements planning (MRP) and production scheduling activities. I supported stock optimization and inventory management processes. I participated in lean manufacturing and Kaizen methodology implementations. I managed the creation and tracking of purchase orders.
+
+## ‣ Walmart \| Warehouse Associate \| Michigan, USA \| 06.2022 – 09.2022
+
+-   As a Warehouse Associate at Walmart, I was responsible for handling various tasks related to inventory management and order fulfillment. My duties included receiving and stocking products, organizing inventory, preparing orders for shipment, and ensuring the efficient operation of warehouse processes. I also participated in warehouse optimization projects with engineers and contributed to the ideation and design phases of new plans. Throughout my tenure, I frequently utilized SAP and Excel programs. This experience helped me develop strong attention to detail, time management skills, and the ability to work efficiently in a fast-paced environment.
 
 ## ‣ Newpark Hotel \| Sales and Marketing Stuff \| Ankara, Turkey \| 01.2021 – 09.2021
 
@@ -71,4 +73,4 @@ sidebar: false
 
 -   I started swimming at the age of 4, was selected for the Turkish National Team at the age of 16, and ended my professional career at the age of 17.
 
-[Download my CV](CV.Efe%20Kayra%20Torun.pdf)
+[Download my CV](CV'Efe%20Kayra%20Torun.pdf)
