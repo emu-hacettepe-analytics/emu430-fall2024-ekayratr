@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Efe Kayra Torun]"
+  title: "Efe Kayra Torun"
   navbar:
     search: true
     left:
@@ -41,13 +41,14 @@ website:
   page-footer:
     center: "Hacettepe IE - EMU430 - 2024 Fall" 
     border: true
+
 format:
   html:
     toc: true
     toc-location: left
-    theme: lux 
+    theme: lux
     css: styles.css
 
-
 editor: visual
+
 
