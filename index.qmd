@@ -3,12 +3,13 @@ title: "Efe Kayra Torun"
 sidebar: false
 ---
 
-Hello, this is my personal webpage.
-Follow my works on Industrial Engineering, Data Analytics, Blog Posts, and More.
----
+::: {style="text-align: center; background-color: transparent"}
 
-\
+![ **w/my son**](Peachy%20Saved%20Photo.png){width="498"}
 
----
+------------------------------------------------------------------------
 
----
+Hello, this is my personal webpage. Follow my works on Industrial Engineering, Data Analytics, Blog Posts, and More.
+
+------------------------------------------------------------------------
+:::

@@ -8,10 +8,10 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
-  color: #666;
-  text-align: center;
+  color: #000060;
+  text-align: left;
   margin-bottom: 30px;
 }
 
@@ -27,4 +27,9 @@ h2 {
 
 .button:hover {
   background-color: #444; /* Hover efekti için koyu gri */
+}
+
+.center-text {
+  text-align: center;
+  background-color: transparent;
 }
