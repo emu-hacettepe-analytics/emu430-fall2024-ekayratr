@@ -44,10 +44,9 @@ website:
 
 format:
   html:
-    toc: true
-    toc-location: left
     theme: lux
     css: styles.css
+
 
 editor: visual
 
