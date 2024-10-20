@@ -29,17 +29,17 @@ website:
         href: https://www.linkedin.com/in/efekayratorun1/
 
   sidebar:
-    - title: "Assignments"
-      style: "docked"
-      search: true
-      contents:
-        - assignments.qmd
-        - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd  
+    style: "docked"
+    search: true
+    contents:
+      - assignments.qmd
+      - assignments/assignment-1.qmd
+      - assignments/assignment-2.qmd  
+
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    center: "Hacettepe IE - EMU430 - 2024 Fall" 
+    center: "Hacettepe IE - EMU430 - 2024 Fall"
     border: true
 
 format:
@@ -47,7 +47,7 @@ format:
     theme: lux
     css: styles.css
 
-
 editor: visual
+
 
 

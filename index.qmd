@@ -1,9 +1,14 @@
 ---
 title: "Efe Kayra Torun"
-sidebar: false 
+sidebar: false
 ---
 
+Hello, this is my personal webpage.
+Follow my works on Industrial Engineering, Data Analytics, Blog Posts, and More.
 ---
-Hello,This is My Personal Webpage
-Follow My Works on Industrial Engineering, Data Analytics, Blog Posts, and More.
+
+\
+
+---
+
 ---
